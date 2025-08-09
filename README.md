@@ -41,7 +41,7 @@ For Software:
 [commands]
 
 # Run
-[python manage.py runserver]
+> python manage.py runserver
 
 ### Project Documentation
 For Software:
