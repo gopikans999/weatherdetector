@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Song Recommender</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'recommend/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Weather Song Recommender 🎵</h1>
+        <form method="POST" action="{% url 'get_weather' %}">
+            {% csrf_token %}
+            <input type="text" name="city" placeholder="Enter city name" required>
+            <button type="submit">Get Recommendation</button>
+        </form>
+    </div>
+</body>
+</html>
+                                                                           
