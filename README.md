@@ -76,8 +76,8 @@ For Hardware:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Final](final_product1)
+*this is home page for detect weather and input a city name *
 
 ### Project Demo
 # Video
